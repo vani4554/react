@@ -15,7 +15,7 @@
 import { BrowserRouter, Link,Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Veg from "./Veg";
-import Nonveg from "./NonVeg";
+
 import Milk from "./Milk";
 import Cart from "./Cart";
 import Order from "./Order";
@@ -25,6 +25,7 @@ import Contactus from "./Contactus";
 import NotFound from "./NotFound";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "./Store";
+import Nonveg from "./Nonveg";
 
 function App()
 {
