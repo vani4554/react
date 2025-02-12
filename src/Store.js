@@ -5,7 +5,7 @@
   import Cart from "./Cart";
   import { configureStore, createSlice } from "@reduxjs/toolkit";
  import Milk from "./Milk";
- import Nonveg from "./NonVeg";
+ import Nonveg from "./Nonveg";
  import Veg from "./Veg";
 
  const productsSlice= createSlice({
@@ -17,7 +17,7 @@
          {image:"carrot.jpg",name:'carrot',price:140.0},
          {image:"onion.webp",name:'onion',price:150.0},
      ],
-     NonVeg:[
+     Nonveg:[
          {image:"chicken.avif",name:'chicken',price:230.0},
          {image:"fish.webp",name:'fish',price:160.0},
          {image:"mutton.jpg",name:'mutton',price:800.0},
